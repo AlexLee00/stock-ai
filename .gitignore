@@ -1,14 +1,48 @@
+# =========================
 # Python
-venv/
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Node
-node_modules/
-.next/
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
 
-# Env
+# Environment Variables
 .env
+.env.*
 
-# Mac
+# Model files
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+
+# VSCode
+.vscode/
+
+# macOS
 .DS_Store
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Redis dump
+dump.rdb
